@@ -4062,5 +4062,7 @@ a:focus {
 .blog-details-content .comment-respond .comment-form .submit-btn button {
   border-radius: 0;
 }
-
+.img-responsive{
+  animation: fadeIn 1s !important;
+}
 /*# sourceMappingURL=style.css.map */
