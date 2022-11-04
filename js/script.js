@@ -529,41 +529,45 @@
     if ($("#rsvp-form").length) {
         $("#rsvp-form").validate({
             rules: {
-                name: {
+                Ten: {
                     required: true,
                     minlength: 2
                 },
-                email: "required",
-
-                guest: {
-                    required: true
+               
+                NoiDung: {
+                    required: true,
+                    minlength: 2
                 },
-
-                events: {
-                    required: true
-                }
 
             },
 
             messages: {
-                name: "Please enter your name",
-                email: "Please enter your email",
-                guest: "Select your number of guest",
-                events: "Select your event list"
+                Ten: "Vui lòng điền tên nhé!",
+                NoiDung: "Vui lòng nhập lời chúc nhé!",
             },
 
             submitHandler: function (form) {
                 $("#loader").css("display", "inline-block");
+                $('#btngui').hide();
                 $.ajax({
-                    type: "POST",
-                    url: "mail.php",
+                    type: "GET",
+                    url: "http://183.91.19.78:8088/Home/ThemChuc",
                     data: $(form).serialize(),
-                    success: function () {
+                    success: function (data) {
                         $( "#loader").hide();
                         $( "#success").slideDown( "slow" );
                         setTimeout(function() {
                         $( "#success").slideUp( "slow" );
                         }, 3000);
+                        $('#o-chuc').html(data);
+                        $('#btngui').show();
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: 'success',
+                            title: 'Cảm ơn lời chúc của ' + $('#CachGoi').val() + ' ' + $('#Ten').val() + ' rất nhiều...!',
+                            showConfirmButton: false,
+                            timer: 5500
+                          })
                         form.reset();
                     },
                     error: function() {
