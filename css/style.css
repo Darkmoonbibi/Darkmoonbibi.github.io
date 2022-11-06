@@ -4141,3 +4141,50 @@ a:focus {
 .nhagai{
   height: 400px;
 }
+.mungcuoi{
+  font-family: "Great Vibes", cursive;
+    font-size: 35px;
+    font-size: 1.94444rem;
+    margin: 0;
+    text-shadow: 1px 1px 2px #999999;
+    color: #5e9a8e;
+}
+.mungcuoi-1{
+  font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    margin: 0;
+    text-shadow: 1px 1px 2px #999999;
+    color: #0c0ea1;
+    text-align: center;
+    padding: 30px;
+    line-height: 1em !important;
+}
+.khungtien{
+  height: 97%;
+  width: 49%;
+  margin: 1%;
+  border: #375b54 solid 1px;
+  border-radius:20px ;
+  display: inline;
+}
+.nganhang{
+  width: 100%;
+  padding: 5%;
+  height: auto;
+}
+.anhnh{
+  width: 50%;
+}
+.khungtentk {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 1px 1px 2px #999999;
+  color: #ff2020;
+  text-align: center;
+  padding: 10px;
+  background-color: #c5e9ff;
+  border-radius: 20px 20px 0px 0px;
+}
