@@ -748,8 +748,5 @@
             smallNavFunctionality();
         }, 200));
     });
-    
-    $( document ).ready(function() {
-        preloader();
-    });
+ 
 })(window.jQuery);
