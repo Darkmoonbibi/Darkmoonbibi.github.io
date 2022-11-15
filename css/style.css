@@ -1741,17 +1741,28 @@ a:focus {
   z-index: 10;
 }
 
+.ovienmc{
+  height:400px;display: flex;
+}
+
 @media (max-width: 1199px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
     font-size: 70px;
     font-size: 3.88889rem;
+  }
+  .ovienmc{
+    height:auto;
+    display: block;
   }
 }
 
 @media (max-width: 991px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
     font-size: 55px;
-    font-size: 3.05556rem;
+    font-size: 3.55556rem;
+  }
+  .khungtien{
+    border : none !important;
   }
 }
 
