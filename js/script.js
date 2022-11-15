@@ -749,6 +749,8 @@
         }, 200));
     });
 
-
+    $(window).on("ready", function() {
+        preloader();
+    });
 
 })(window.jQuery);
