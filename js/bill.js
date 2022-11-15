@@ -76,13 +76,13 @@ if(biicore.bgMusic){
 	  }
 	}
 	.bii-player{position: fixed;bottom: 70px;left: 50px;width: 50px;height: 50px;z-index:99999;display:none;}
-	.bii-player .playerIcon{cursor:pointer;display: block;width:50px;height:50px;-webkit-border-radius: 50%;-moz-border-radius: 50%;-o-border-radius: 50%;-ms-border-radius: 50%;border-radius: 50%;background-color: #6c9b92;padding-top: 7px;padding-left: 9px;position:absolute;z-index: 2;}
+	.bii-player .playerIcon{cursor:pointer;display: block;width:50px;height:50px;-webkit-border-radius: 50%;-moz-border-radius: 50%;-o-border-radius: 50%;-ms-border-radius: 50%;border-radius: 50%;background-color: #df4758;padding-top: 7px;padding-left: 9px;position:absolute;z-index: 2;}
 	.bii-player:after{content: "";position: absolute;-webkit-border-radius: 50%;-moz-border-radius: 50%;-o-border-radius: 50%;-ms-border-radius: 50%;border-radius: 50%;z-index: -1;background-color: rgb(47 104 106 / 30%);width: 120%;height: 120%;left: -10%;top: -10%;-webkit-animation: biilogo-pulse 1s infinite;animation: biilogo-pulse 1s infinite;z-index: 1;}
 	.bii-player img{width: 100%;z-index: 99999;position: absolute;cursor:pointer;}
 	.bii-player.show-sec .bii-player-secondary{visibility: visible;}
 	.bii-player.show-sec .bii-player-secondary-content{ transform: translate3d(0, 0, 0);}
 	.bii-player-secondary{position: absolute;width: 350px;left: 25px;height: 50px;overflow: hidden;visibility: hidden;}
-	.bii-player-secondary-content{cursor:pointer;user-select: none;position: absolute;width: 350px;left: -25px;background: #fff;height: 50px;padding: 13px 11px 13px 58px;border: 1px solid #6c9b92;border-radius: 30px;z-index: 1;font-size:15px;transform: translate3d(-100%, 0, 0);transition: transform 175ms ease;font-family: arial;font-weight: 200;color: #000;}
+	.bii-player-secondary-content{cursor:pointer;user-select: none;position: absolute;width: 350px;left: -25px;background: #fff;height: 50px;padding: 13px 11px 13px 58px;border: 1px solid #df4758;border-radius: 30px;z-index: 1;font-size:15px;transform: translate3d(-100%, 0, 0);transition: transform 175ms ease;font-family: arial;font-weight: 200;color: #000;}
 	@media (max-width: 799px) {
 	  .bii-player{bottom: 20px;left: 20px;}
 	}

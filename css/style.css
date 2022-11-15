@@ -262,7 +262,7 @@ a:focus {
   line-height: 37px;
   font-size: 18px;
   font-size: 1rem;
-  color: #5e9a8e;
+  color: #f23b43;
   border: 1px solid #e6e6e6;
   outline: 0;
   padding: 0;
@@ -300,7 +300,7 @@ a:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
@@ -409,7 +409,7 @@ a:focus {
   margin: 0;
   font-size: 65px;
   font-size: 3.61111rem;
-  color: #5e9a8e;
+  color: #f23b43;
   opacity: 0.6;
 }
 
@@ -444,14 +444,14 @@ a:focus {
 
 .section-title h2, .section-title-white h2 {
   font-family: "Great Vibes", cursive;
-  background-color: rgba(94, 154, 142, 0.1);
+  background-color:rgba(242, 59, 67, 0.1);
   font-size: 46px;
   font-size: 2.55556rem;
   color: #848383;
   margin: 59px 0 0;
   padding: 10px 25px 5px;
-  border-top: 2px solid rgba(94, 154, 142, 0.1);
-  border-bottom: 2px solid rgba(94, 154, 142, 0.1);
+  border-top:  3px solid rgba(242, 59, 67, 0.1);
+  border-bottom:  3px solid rgba(242, 59, 67, 0.1);
   display: inline-block;
   text-transform: capitalize;
   letter-spacing: 3px;
@@ -514,7 +514,7 @@ a:focus {
 }
 
 .theme-btn {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   line-height: 0.66em;
   color: #fff;
   padding: 15px;
@@ -553,12 +553,12 @@ a:focus {
 .form input:focus,
 .form textarea:focus,
 .form select:focus {
-  border-color: #5e9a8e;
-  -webkit-box-shadow: 0 0 5px 0 #7cafa5;
-  -moz-box-shadow: 0 0 5px 0 #7cafa5;
-  -o-box-shadow: 0 0 5px 0 #7cafa5;
-  -ms-box-shadow: 0 0 5px 0 #7cafa5;
-  box-shadow: 0 0 5px 0 #7cafa5;
+  border-color: #f23b43;
+  -webkit-box-shadow: 0 0 5px 0 #ff666d;
+  -moz-box-shadow: 0 0 5px 0 #ff666d;
+  -o-box-shadow: 0 0 5px 0 #ff666d;
+  -ms-box-shadow: 0 0 5px 0 #ff666d;
+  box-shadow: 0 0 5px 0 #ff666d;
 }
 
 .form ::-webkit-input-placeholder {
@@ -615,7 +615,7 @@ a:focus {
 }
 
 .social-links li a:hover {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
 }
 
 .page-title {
@@ -694,7 +694,7 @@ a:focus {
 .page-title .breadcrumb ul li {
   font-size: 18px;
   font-size: 1rem;
-  color: #5e9a8e;
+  color: #f23b43;
   float: left;
   position: relative;
 }
@@ -762,7 +762,7 @@ a:focus {
   left: 0;
   top: 0;
   border: 5px solid #f1f1f1;
-  border-top: 5px solid #5e9a8e;
+  border-top: 5px solid #f23b43;
   border-radius: 50%;
   -webkit-animation: rotating 1s linear infinite;
   animation: rotating 1s linear infinite;
@@ -782,7 +782,7 @@ a:focus {
 .preloader .icon i:before {
   font-size: 55px;
   font-size: 3.05556rem;
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 @-webkit-keyframes rotating {
@@ -919,11 +919,11 @@ a:focus {
 }
 
 .blog-sidebar .categories-widget ul li a:hover:before {
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 .blog-sidebar .categories-widget ul li a:hover {
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 .blog-sidebar .popular-posts-widget li {
@@ -939,7 +939,7 @@ a:focus {
   font-size: 16px;
   font-size: 0.88889rem;
   font-weight: 600;
-  color: #5e9a8e;
+  color: #f23b43;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -1002,9 +1002,9 @@ a:focus {
 }
 
 .blog-sidebar .populer-tags-widget ul li a:hover {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   color: #fff;
-  border-color: #5e9a8e;
+  border-color: #f23b43;
 }
 
 .blog-sidebar .populer-tags-widget ul li a:hover:before {
@@ -1031,7 +1031,7 @@ a:focus {
   text-align: center;
   color: #565656;
   border-radius: 0;
-  border: 1px solid #5e9a8e;
+  border: 1px solid #f23b43;
   padding: 0;
   margin: 2px;
   position: relative;
@@ -1068,7 +1068,7 @@ a:focus {
 .page-pagination .pagination li a:hover,
 .page-pagination .pagination li a:focus,
 .page-pagination .pagination li.current a {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   color: #fff;
 }
 
@@ -1107,7 +1107,7 @@ a:focus {
 
 .site-header #navbar > ul li a:hover {
   text-decoration: none;
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 @media screen and (min-width: 992px) {
@@ -1124,7 +1124,7 @@ a:focus {
   .site-header #navbar > ul .sub-menu {
     background-color: #fff;
     width: 220px;
-    border-top: 2px solid #5e9a8e;
+    border-top: 2px solid #f23b43;
     position: absolute;
     left: 0;
     top: 130%;
@@ -1227,7 +1227,7 @@ a:focus {
   .site-header #navbar .half-mega-menu {
     background-color: #fff;
     padding: 20px;
-    border-top: 2px solid #5e9a8e;
+    border-top: 2px solid #f23b43;
     position: absolute;
     right: 0;
     top: 120%;
@@ -1327,7 +1327,7 @@ a:focus {
     width: 100%;
   }
   .site-header .navbar-header button {
-    background-color: #5e9a8e;
+    background-color: #f23b43;
     width: 40px;
     height: 35px;
     border: 0;
@@ -1371,14 +1371,14 @@ a:focus {
   }
   .site-header #navbar ul a:hover,
   .site-header #navbar ul li.current a {
-    color: #5e9a8e;
+    color: #f23b43;
   }
   .site-header #navbar .navbar-nav {
     height: 100%;
     overflow: auto;
   }
   .site-header #navbar .close-navbar {
-    background-color: #5e9a8e;
+    background-color: #f23b43;
     width: 35px;
     height: 35px;
     color: #fff;
@@ -1478,7 +1478,7 @@ a:focus {
 }
 
 .header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 .header-style-1 .navigation, .header-style-2 .navigation {
@@ -1503,7 +1503,7 @@ a:focus {
 .header-style-1 #navbar ul li.current-menu-item > a, .header-style-2 #navbar ul li.current-menu-item > a,
 .header-style-1 #navbar ul > li.current-menu-ancestor li.current-menu-item > a, .header-style-2 #navbar ul > li.current-menu-ancestor li.current-menu-item > a,
 .header-style-1 #navbar ul > li.current-menu-ancestor > a, .header-style-2 #navbar ul > li.current-menu-ancestor > a {
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 @media screen and (min-width: 992px) {
@@ -1526,7 +1526,7 @@ a:focus {
     padding: 10px 15px;
   }
   .header-style-1 #navbar > ul > li .sub-menu a:hover, .header-style-2 #navbar > ul > li .sub-menu a:hover {
-    color: #5e9a8e;
+    color: #f23b43;
   }
   .header-style-1 #navbar > ul > li:last-child > ul, .header-style-2 #navbar > ul > li:last-child > ul {
     left: auto;
@@ -1620,7 +1620,7 @@ a:focus {
 
 .hero .slick-prev,
 .hero .slick-next {
-  background-color: rgba(94, 154, 142, 0.6);
+  background-color: rgb(255 85 100 / 60%);
   width: 50px;
   height: 50px;
   z-index: 111;
@@ -1629,8 +1629,8 @@ a:focus {
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
-  box-shadow: 0 0 0 5px rgba(94, 154, 142, 0.9);
+  -webkit-box-shadow: 0 0 0 5px rgb(233 12 12 / 90%);
+  box-shadow: 0 0 0 5px rgb(233 12 12 / 90%);
   opacity: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1642,8 +1642,8 @@ a:focus {
 .hero .slick-prev:hover,
 .hero .slick-next:hover {
   background-color: rgba(94, 154, 142, 0.8);
-  -webkit-box-shadow: 0 0 0 5px #5e9a8e;
-  box-shadow: 0 0 0 5px #5e9a8e;
+  -webkit-box-shadow: 0 0 0 5px #f23b43;
+  box-shadow: 0 0 0 5px #f23b43;
 }
 
 @media (max-width: 1199px) {
@@ -1858,7 +1858,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date:before {
-  background-color: rgba(94, 154, 142, 0.3);
+  background-color: rgba(242, 59, 67, 0.3);
   width: 110%;
   height: 110%;
   left: -5%;
@@ -1877,7 +1877,7 @@ a:focus {
 }
 
 .hero .wedding-announcement .save-the-date:after {
-  background-color: rgba(94, 154, 142, 0.7);
+  background-color:rgba(253, 37, 47, 0.7);
   width: 100%;
   height: 100%;
   left: 0;
@@ -2011,7 +2011,7 @@ a:focus {
   color: #fff;
   padding-top: 20px;
   position: relative;
-  background-color: #5e9a8e;
+  background-color: #f23b43;
 }
 
 @media (max-width: 1199px) {
@@ -2319,7 +2319,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .social-links a {
-  background-color: #7cafa5;
+  background-color: #ff666d;
   width: 34px;
   height: 34px;
   line-height: 34px;
@@ -2344,7 +2344,7 @@ a:focus {
 }
 
 .wedding-couple-section .details .social-links a:hover {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
 }
 
 @media screen and (min-width: 992px) {
@@ -2450,7 +2450,7 @@ a:focus {
 }
 
 .count-down-section #clock {
-  color: #5e9a8e;
+  color: #f23b43;
   overflow: hidden;
 }
 
@@ -2633,12 +2633,12 @@ a:focus {
 }
 
 .story-section .story-timeline .text-holder .heart {
-  background-color: #9cc2bb;
+  background-color: #ff797f;
   width: 43px;
   height: 43px;
   line-height: 41px;
   text-align: center;
-  border: 2px solid rgba(94, 154, 142, 0.5);
+  border: 3px solid rgba(242, 59, 67, 0.5);
   position: absolute;
   left: -22px;
   top: -22px;
@@ -2669,7 +2669,7 @@ a:focus {
   font-size: 22px;
   font-size: 1.22222rem;
   font-weight: 600;
-  color: #5e9a8e;
+  color: #f23b43;
   margin: 0 0 0.5em;
   text-transform: uppercase;
 }
@@ -2729,7 +2729,7 @@ a:focus {
 }
 
 .story-section .video-holder .video-play-btn i {
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 .story-section .story-timeline .story-slider .owl-controls {
@@ -2895,7 +2895,7 @@ a:focus {
 }
 
 .events-section .event ul li i {
-  color: #5e9a8e;
+  color: #f23b43;
   position: absolute;
   left: 0;
   top: 3px;
@@ -2907,7 +2907,7 @@ a:focus {
 
 .events-section .event .see-location-btn {
   font-weight: 600;
-  color: #5e9a8e;
+  color: #f23b43;
   display: inline-block;
   margin-top: 5px;
 }
@@ -2962,7 +2962,7 @@ a:focus {
 }
 
 .inportant-people-section .tablist ul .active a {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   color: #fff;
 }
 
@@ -3132,7 +3132,7 @@ a:focus {
 .inportant-people-section .grid .social-links li a {
   font-size: 14px;
   font-size: 0.77778rem;
-  color: #7cafa5;
+  color: #ff666d;
 }
 
 @media (max-width: 767px) {
@@ -3144,7 +3144,7 @@ a:focus {
 
 .inportant-people-section .grid .social-links li a:hover {
   background-color: transparent;
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 /*--------------------------------------------------------------
@@ -3192,7 +3192,7 @@ a:focus {
 }
 
 .gallery-section .gallery-filters ul .current {
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 .gallery-section .masonry-gallery {
@@ -3303,7 +3303,7 @@ a:focus {
 }
 
 .gallery-section .video-play-btn:hover i {
-  background: #5e9a8e;
+  background: #f23b43;
 }
 
 /*--------------------------------------------------------------
@@ -3409,7 +3409,7 @@ a:focus {
 }
 
 .rsvp-section .form .submit-btn button {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   height: 45px;
   line-height: 45px;
   font-size: 16px;
@@ -3453,7 +3453,7 @@ a:focus {
 #1.4	getting-there-section
 --------------------------------------------------------------*/
 .getting-there-section {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
 }
 
 .getting-there-section .content h3,
@@ -3580,7 +3580,7 @@ a:focus {
 }
 
 .blog-main .entry-date span {
-  background-color: #5e9a8e;
+  background-color: #f23b43;
   font-size: 12px;
   font-size: 0.66667rem;
   color: #fff;
@@ -3625,7 +3625,7 @@ a:focus {
 .blog-main .entry-meta i {
   font-size: 16px;
   font-size: 0.88889rem;
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 @media (max-width: 767px) {
@@ -3662,7 +3662,7 @@ a:focus {
 }
 
 .blog-main .entry-title a:hover {
-  color: #5e9a8e;
+  color: #f23b43;
   text-decoration: none;
 }
 
@@ -3671,7 +3671,7 @@ a:focus {
 }
 
 .blog-main .read-more {
-  background-color: #7cafa5;
+  background-color: #ff666d;
   font-size: 16px;
   font-size: 0.88889rem;
   display: inline-block;
@@ -3801,8 +3801,8 @@ a:focus {
 }
 
 .blog-details-content .tag-social-share .tag a:hover {
-  background-color: #5e9a8e;
-  border-color: #5e9a8e;
+  background-color: #f23b43;
+  border-color: #f23b43;
   color: #fff;
 }
 
@@ -3854,8 +3854,8 @@ a:focus {
 }
 
 .blog-details-content .tag-social-share .social-share .social-links a:hover {
-  background-color: #5e9a8e;
-  border-color: #5e9a8e;
+  background-color: #f23b43;
+  border-color: #f23b43;
   color: #fff;
 }
 
@@ -3995,7 +3995,7 @@ a:focus {
   font-size: 16px;
   font-size: 0.88889rem;
   font-weight: 600;
-  color: #5e9a8e;
+  color: #f23b43;
 }
 
 .blog-details-content .comments-area .review a:hover {
@@ -4088,10 +4088,10 @@ a:focus {
   overflow: hidden;
 }
 .o-chuc{
-  border: #375b54 solid 1px;
+  border: #f33c88 solid 1px;
   width: 100%;
   height: 400px;
-  color: #0008ff;
+  color: #fb2049;
   overflow-y: scroll;
   overflow-x: hidden;
   border-radius:20px ;
@@ -4117,7 +4117,7 @@ a:focus {
  
 /* Handle */
 .o-chuc::-webkit-scrollbar-thumb {
-  background: rgb(11, 137, 255); 
+  background: rgb(242 59 67); 
   border-radius: 10px;
 }
 
@@ -4148,7 +4148,7 @@ a:focus {
     font-size: 1.94444rem;
     margin: 0;
     text-shadow: 1px 1px 2px #999999;
-    color: #5e9a8e;
+    color: #f23b43;
 }
 .mungcuoi-1{
   font-family: "Great Vibes", cursive;
@@ -4164,7 +4164,7 @@ a:focus {
   height: 97%;
   width: 49%;
   margin: 1%;
-  border: #375b54 solid 1px;
+  border: #ff2680 solid 1px;
   border-radius:20px ;
   display: inline;
 }
@@ -4188,4 +4188,20 @@ a:focus {
   padding: 10px;
   background-color: #c5e9ff;
   border-radius: 20px 20px 0px 0px;
+}
+
+.fa-heart:before {
+  content: "\f004";
+}
+.hero .wedding-announcement .couple-name-merried-text i {
+  font-size: 450px;
+  color: rgba(253, 37, 47, 0.3);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
