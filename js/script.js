@@ -470,7 +470,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2022/12/16', function(event) {
+        $('#clock').countdown('2022/12/16 19:00', function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div>%D</div> <span>Ngày</span> </div>'
             + '<div class="box"><div>%H</div> <span>Giờ</span> </div>'

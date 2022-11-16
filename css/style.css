@@ -2307,7 +2307,6 @@ a:focus {
 }
 
 .wedding-couple-section .details .signature:before {
-  content: "";
   background-color: #000;
   width: 15px;
   height: 1px;
@@ -4216,3 +4215,11 @@ a:focus {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.details-inner{
+  text-align: center;
+}
+.gtcdcr p{
+  font-size: 20px;
+  text-align: left;
+}
+
