@@ -745,7 +745,9 @@
             })
         }, 1000);
         setTimeout(function() {
-            $('#btnnhac').click()
+            if(!isPlay){
+                $('#btnnhac').click()
+            }
         }, 10000);
     </script>
     <script type="text/javascript">
