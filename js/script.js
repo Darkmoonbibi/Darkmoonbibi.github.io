@@ -551,7 +551,7 @@
                 $('#btngui').hide();
                 $.ajax({
                     type: "GET",
-                    url: "http://183.91.19.78:8088/Home/ThemChuc",
+                    url: "http://183.91.19.78:8085/Home/ThemChuc",
                     data: $(form).serialize(),
                     success: function (data) {
                         $( "#loader").hide();
