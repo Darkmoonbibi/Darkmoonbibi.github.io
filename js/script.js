@@ -750,3 +750,5 @@
     });
  
 })(window.jQuery);
+
+$('.preloader').hide();
