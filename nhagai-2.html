@@ -200,16 +200,16 @@
                 </div> <!-- end section-title -->
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <a href="anhcuoi.html" class="btn btn-anhcuoi btn-primary ">Album cưới </a>
+                        <a href="anhcuoi.html#gallery" class="btn btn-anhcuoi btn-primary ">Album cưới </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="saigon.html" class="btn btn-anhcuoi btn-primary ">Lễ Thành Hôn (Tp.HCM) </a>
+                        <a href="saigon.html#gallery" class="btn btn-anhcuoi btn-primary ">Lễ Thành Hôn (Tp.HCM) </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="nhagai.html" class="btn btn-anhcuoi btn-primary dangxem">Lễ Vu Quy (Nhà gái) </a>
+                        <a href="nhagai.html#gallery" class="btn btn-anhcuoi btn-primary dangxem">Lễ Vu Quy (Nhà gái) </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="nhatrai.html" class="btn btn-anhcuoi btn-primary">Lễ Tân Hôn (Nhà trai) </a>
+                        <a href="nhatrai.html#gallery" class="btn btn-anhcuoi btn-primary">Lễ Tân Hôn (Nhà trai) </a>
                     </div>
                 </div>
                 <hr>
@@ -221,9 +221,9 @@
                                
                             </ul>
                         </div>
-                        <a href="nhagai.html" class="btn btn-success ">Trang 1 </a>
-                        <a href="nhagai-2.html" class="btn btn-success dangxem">Trang 2 </a>
-                        <a href="nhagai-3.html" class="btn btn-success ">Trang 3 </a>
+                        <a href="nhagai.html#gallery" class="btn btn-success ">Trang 1 </a>
+                        <a href="nhagai-2.html#gallery" class="btn btn-success dangxem">Trang 2 </a>
+                        <a href="nhagai-3.html#gallery" class="btn btn-success ">Trang 3 </a>
                         <div class="gallery-container gallery-fancybox masonry-gallery">
                             <div class="grid">
                                 <div class="img-holder">
@@ -935,9 +935,9 @@
                     
                     
                         </div>
-                        <a href="nhagai.html" class="btn btn-success ">Trang 1 </a>
-                        <a href="nhagai-2.html" class="btn btn-success dangxem">Trang 2 </a>
-                        <a href="nhagai-3.html" class="btn btn-success ">Trang 3 </a>
+                        <a href="nhagai.html#gallery" class="btn btn-success ">Trang 1 </a>
+                        <a href="nhagai-2.html#gallery" class="btn btn-success dangxem">Trang 2 </a>
+                        <a href="nhagai-3.html#gallery" class="btn btn-success ">Trang 3 </a>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->
@@ -964,8 +964,7 @@
     <!-- end of page-wrapper -->
 
 
-
-    <!-- All JavaScript files
+  <!-- All JavaScript files
     ================================================== -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -977,6 +976,17 @@
     <script src="js/script.js"></script>
     <!-- <script src="js/heart.js"></script> -->
     <script>
+        var intervalId = window.setInterval(function(){
+            $('.slick-next').trigger("click");
+        }, 4000);
+        setTimeout(function() {
+            if(!isPlay){
+                $('#btnnhac').click()
+            }
+        }, 10000);
+    </script>
+     <script type="text/javascript">
+    	const biicore = {themeRoot:'', webroot : '', coreSite: '', webToken: '', bgMusic: 'audio/damcuoinha1.mp3'};
     </script>
      <script src="js/bill.js"></script>
 </body>
