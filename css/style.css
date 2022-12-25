@@ -4226,3 +4226,11 @@ a:focus {
 .btn-xemhet{
   font-size: 30px;
 }
+.btn-anhcuoi{
+  font-size: 30px;
+  width: 280px;
+}
+.dangxem{
+  background-color: red;
+  pointer-events: none;
+}
